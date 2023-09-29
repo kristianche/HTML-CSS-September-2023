@@ -1,0 +1,9 @@
+article span:nth-child(1){
+    color: white;
+    background-color: red;
+}
+
+article span:nth-last-child(1){
+    color: white;
+    background-color: red;
+}
