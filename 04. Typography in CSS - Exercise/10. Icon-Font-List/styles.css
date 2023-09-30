@@ -1,0 +1,13 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+i {
+    font-size: 25px;
+}
