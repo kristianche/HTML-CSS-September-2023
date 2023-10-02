@@ -1,0 +1,16 @@
+body {
+    font-family: Helvetica, sans-serif;
+}
+nav {
+    margin-top: 40px;
+}
+nav h1 {
+    font-weight: bold;
+}
+nav h1, nav ul{
+    display: inline;
+}
+
+ul {
+    margin-top: 0px;
+}
