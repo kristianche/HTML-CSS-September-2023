@@ -1,0 +1,24 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+span {
+    border: 1px black solid;
+    padding: 1.5em;
+    text-align: center;
+}
+
+.container {
+    max-width: 15vh;
+    height: 42em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.5em;
+}
+
+span:nth-child(7){order: 10;}
+span:nth-child(10){order: 11;}
+span:nth-child(11){order: 1;}
+span:nth-child(1){order: 8;}

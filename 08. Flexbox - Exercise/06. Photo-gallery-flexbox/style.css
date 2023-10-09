@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gallery{
+    width: 140vh;
+    background-color:  lightgray;
+    border: 1px solid black;
+    margin-inline: 15.5em;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3em;
+    justify-content: center;
+    padding: 3em 2em;
+
+}
+
+li {
+    border: 8px solid black;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    flex-grow: 1;
+    width: 80%;
+    margin: 0 auto;
+    margin: 2em;
+}
