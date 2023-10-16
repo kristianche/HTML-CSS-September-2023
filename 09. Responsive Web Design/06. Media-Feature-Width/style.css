@@ -1,0 +1,17 @@
+@media (width: 360px) {
+    body {
+        color: red;
+    }
+}
+
+@media (min-width: 35rem) {
+    body {
+        background-color: yellow;
+    }
+}
+
+@media (max-width: 35rem) {
+    body {
+        border: 2px solid blue;
+    }
+}
